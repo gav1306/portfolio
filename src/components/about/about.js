@@ -31,7 +31,7 @@ const About = () => {
         <LinkSecondary
           ariaLabel="View Full Résumé"
           target="_blank"
-          href="https://bit.ly/gayatri_frontend_developer_resume_v3"
+          href="https://bit.ly/resume_v4"
         >
           View Full Résumé
         </LinkSecondary>
