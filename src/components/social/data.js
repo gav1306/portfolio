@@ -2,9 +2,10 @@ import {
   faGithub,
   faLinkedin,
   faMedium,
-  faStackOverflow,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faMobile } from "@fortawesome/free-solid-svg-icons";
+
 const data = [
   {
     id: 1,
@@ -29,6 +30,18 @@ const data = [
     name: "Medium",
     link: "https://medium.com/@gavk30",
     icon: faMedium,
+  },
+  {
+    id: 5,
+    name: "E-Mail",
+    link: "mailto:gavk30@gmail.com",
+    icon: faEnvelope,
+  },
+  {
+    id: 6,
+    name: "Phone",
+    link: "tel:+918879490339",
+    icon: faMobile,
   },
 ];
 
