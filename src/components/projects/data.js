@@ -7,6 +7,8 @@ import projectManagerImage from "@/assets/projects/project_manager.png";
 import quoteGeneratorImage from "@/assets/projects/quote_generator.png";
 import taskManagerImage from "@/assets/projects/task_manager.png";
 import ticTacToeImage from "@/assets/projects/tic_tac_toe.png";
+import dummyDashboardImage from "@/assets/projects/dummy-dashboard.png";
+import dragNDropImage from "@/assets/projects/drag-n-drop.png";
 
 const data = [
   {
