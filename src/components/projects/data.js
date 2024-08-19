@@ -16,7 +16,7 @@ const data = [
     title: "Drag and Drop (Workflow Creator)",
     link: "https://drag-n-drop-gayatri.vercel.app",
     description: `A canvas created using React Flow library where user can drag and drop cards and link those with each other.`,
-    img: "",
+    img: dragNDropImage,
     tags: ["JavaScript", "React.js", "React Flow", "React Hook Form", "Zod", "Shadcn", "Tailwind CSS"],
   },
    {
@@ -24,7 +24,7 @@ const data = [
     title: "Dummy Dashboard",
     link: "https://dummy-dashboard-gayatri.vercel.app",
     description: `A dummy dashboard where user can create multiple categories in which there can be multiple widgets with title and description. User can also manage visibility of widgets on the dashboard.`,
-    img: "",
+    img: dummyDashboardImage,
     tags: ["JavaScript", "React.js", "React Hook Form", "Zod", "Shadcn", "Tailwind CSS"],
   },
   {
