@@ -16,7 +16,7 @@ const data = [
     id: 1,
     title: "Flight Booking",
     link: "https://flight-booking-gayatri.vercel.app",
-    description: `A simple flight booking application where user can put origin and destination to search flights.`,
+    description: `A simple flight booking application where users can put origin and destination to search flights.`,
     img: flightBookingImage,
     tags: ["JavaScript", "TypeScript", "React.js", "Next.js", "React Hook Form", "Zod", "Shadcn", "Tailwind CSS"],
   },
