@@ -1,9 +1,9 @@
-import { LinkSecondary } from "../ui/link";
 import { SectionHeading } from "../ui/heading";
 import Section from "../ui/section";
 import ProjectCard from "../ui/project-card";
 
-import data from "./data";
+import PROJECTS from "@/data/projects";
+import { LinkSecondary } from "../ui/link";
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
       <SectionHeading>Projects</SectionHeading>
       <div>
         <ul className="group/list">
-          {data.map((item) => {
+          {PROJECTS.slice(0, 4).map((item) => {
             return (
               <li key={item.id} className="mb-12">
                 <ProjectCard {...item} />
@@ -19,6 +19,11 @@ const Projects = () => {
             );
           })}
         </ul>
+        <div className="mt-12">
+          <LinkSecondary ariaLabel="View Full Project Archive" href="/archive">
+            View Full Project Archive
+          </LinkSecondary>
+        </div>
       </div>
     </Section>
   );
